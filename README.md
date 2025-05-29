@@ -5,6 +5,8 @@ Welcome to my personal portfolio website which was designed and developed from s
 🌐 **Live Site**: [rownull.github.io/portfolio](https://rownull.github.io/portfolio)
 
 
+
+
 📌 Features
 
 - Responsive design (mobile-first)
@@ -16,6 +18,8 @@ Welcome to my personal portfolio website which was designed and developed from s
 - Vanilla HTML, CSS, and JavaScript
 
 
+
+
 🛠️ Tech Stack
 
 - HTML5
@@ -25,9 +29,13 @@ Welcome to my personal portfolio website which was designed and developed from s
 - GitHub Pages (for deployment)
 
 
+
+
 📸 Preview
 
 [Portfolio Screenshot](assets/images/portfolio-preview.png)
+
+
 
 
 📬 Contact Me
@@ -35,11 +43,14 @@ Welcome to my personal portfolio website which was designed and developed from s
 Feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/ronal-thapa-7322161a3/) or [Instagram](https://www.instagram.com/roo_nal/).
 
 
+
+
 ⚙️ Future Plans
 
 - Add scroll reveal animations
 - Expand project list
 - Integrate blogs or update logs
+
 
 
 🙏 Acknowledgments
