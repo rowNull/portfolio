@@ -6,6 +6,7 @@ Welcome to my personal portfolio website which was designed and developed from s
 
 
 📌 Features
+
 - Responsive design (mobile-first)
 - Skills section with icons
 - Highlighted projects with preview images
@@ -16,6 +17,7 @@ Welcome to my personal portfolio website which was designed and developed from s
 
 
 🛠️ Tech Stack
+
 - HTML5
 - CSS3 (Flexbox + Media Queries)
 - JavaScript
@@ -24,20 +26,24 @@ Welcome to my personal portfolio website which was designed and developed from s
 
 
 📸 Preview
+
 [Portfolio Screenshot](assets/images/portfolio-preview.png)
 
 
 📬 Contact Me
+
 Feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/ronal-thapa-7322161a3/) or [Instagram](https://www.instagram.com/roo_nal/).
 
 
 ⚙️ Future Plans
+
 - Add scroll reveal animations
 - Expand project list
 - Integrate blogs or update logs
 
 
 🙏 Acknowledgments
+
 - Inspiration from developer portfolios across GitHub
 - Icons from [Icon8](https://icons8.com/)
 - Favicon via [Favicon](https://favicon.io/)
