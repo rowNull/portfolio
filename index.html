@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronal Thapa | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav>
+        <h1><a href="#">R&empty;</a></h1>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+           <img src="/assets/icons/menu-open.svg" alt="Menu">
+        </button>
+        
+        <ul id="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        </nav>
+
+    <!-- Hero section -->
+    <section class="hero" id="about">
+        <img src="assets/images/hero-image.jpg" alt="Ronal-Thapa-picture" loading="lazy">
+        <div class="about">
+            <h3 class="bio-title">Hi, I am Ronal</h3>
+            <p class="bio-text">
+                CS Student | Passionate About Learning & Building <br>From mastering C++ to diving into Python, I am on a mission to become a great software engineer and I love turning ideas into functional code.
+            </p>
+        </div>
+    </section>
+
+    <!-- More about section -->
+    <div class="more-about">
+        <h3>More About Me</h3>
+        <p>I am a curious learner who loves breaking down complex problems and turning them into clean, efficient solutions. Right now, I am focused on building strong fundamentals and contributing to real-world projects. My dream is to work on software that improves lives, especially in health tech or education. Transferring to a 4-year university is my next step to deepen this journey.</p>
+        <p>And if you don't find me coding, I am probably out grabbing sushi or rewatching my favorite anime. It is my kind of weekend reset.</p>
+
+    </div>
+
+    <!-- Skills section-->
+    <section class="skills" id="skills">
+        <h3 class="skills-title">My Skills</h3>
+        <div class="skills-wrapper">
+            <div class="skill-set-1">
+                <img src="assets/icons/c++-logo.svg" alt="c++ logo" loading="lazy" class="icon-card">
+                <img src="assets/icons/python-logo.svg" alt="python logo" loading="lazy" class="icon-card">
+                <img src="assets/icons/git-logo.svg" alt="git logo" loading="lazy" class="icon-card">
+            </div>
+            <div class="skill-set-2">
+                <img src="assets/icons/html-logo.svg" alt="html logo" loading="lazy" class="icon-card">
+                <img src="assets/icons/css-logo.svg" alt="css logo" loading="lazy" class="icon-card">
+                <img src="assets/icons/javascript-logo.svg" alt="javascript logo" loading="lazy" class="icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h3 class="projects-title">Recent Projects</h3>
+
+        <div class="projects-container">
+
+            <div class="project-container project-card">
+            <img src="assets/images/sky-check.png" alt="project picture" loading="lazy" class="project-pic"
+          />
+          <h4 class="project-title">SkyCheck: Weather App</h4>
+          <p class="project-details">
+            A Python-based weather app that uses the OpenWeather API to fetch real-time data. Type any city name and get temperature, humidity, and sky conditions — all in under 2 seconds.
+          </p>
+          <a href="#" target="_blank" class="project-link">See Weather in Action </a>
+            </div>
+
+            <div class="project-container project-card">
+          <img src="assets/images/quick-convert.png" alt="project picture" loading="lazy" class="project-pic"
+          />
+          <h4 class="project-title">QuickConvert: Unit Converter</h4>
+          <p class="project-details">
+            A responsive web app that converts units like temperature, length, and weight. Built with HTML, CSS, and JavaScript for instant feedback — sleek, simple, and mobile-friendly.
+          </p>
+          <a href="#" target="_blank" class="project-link">Convert Units Now</a>
+            </div>
+
+            <div class="project-container project-card">
+          <img src="assets/images/todo-tracker.png" alt="project picture" loading="lazy" class="project-pic"
+          />
+          <h4 class="project-title">GSD: ToDo Tracker</h4>
+          <p class="project-details">
+            A minimalist command-line app to manage daily tasks. Add, mark, and delete to-dos with ease. Built using Python and file handling — it's productivity made simple, right from the terminal.
+          </p>
+          <a href="#" target="_blank" class="project-link">Try it on GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h3 class="contact-title">Let's get connected</h3>
+        <div class="contact-form-container">
+            <form action="https://formspree.io/f/movdpdya" method="POST">
+
+            <p>*Required</p>
+            <div class="form-control">
+                <label for="name">Name<span class="required-input">*</span></label>
+                <input type="text" id="name" name = "Name" placeholder="" class="input-field" required>
+            </div>
+            <div class="form-control">
+                <label for="email">Email<span class="required-input">*</span></label>
+                <input type="email" id="email" name = "E-mail" placeholder="" class="input-field" required>
+            </div>
+            <div class="form-control">
+                <label for="message">Message</label>
+                <textarea id="message" cols="60" rows="10" name = "Message" placeholder="" class="input-field"></textarea>
+            </div>
+            <input type="submit" value="Send" class="submit-btn" id="submit-btn">
+        </form>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="socials">
+        <a href="https://www.linkedin.com/in/ronal-thapa-7322161a3/" target="_blank"><img src="assets/icons/linkedin-logo.gif" alt="linkedin-logo" loading="lazy"
+            class="social-icon" aria-label="Visit my Linkedin"></a>
+        <a href="https://www.instagram.com/roo_nal/" target="_blank"><img src="assets/icons/instagram-logo.gif" alt="instagram-logo" loading="lazy"
+            class="social-icon" aria-label="Follow me on Instagram"></a>
+        <a href="https://github.com/rowNull" target="_blank"><img src="assets/icons/github-logo.gif" alt="github-logo" loading="lazy"
+            class="social-icon" aria-label="Visit my Git Hub"></a>
+        <a href="https://www.snapchat.com/add/row_null?invite_id=uwQ8vq9E&locale=en_US&share_id=mFztnYDwQoiOdhav8YM4MA&sid=bf9cb2cdd3f3456baa29e5577eb74d08" target="_blank">
+            <img src="assets/icons/snapchat-logo.gif" alt="snapchat-logo" loading="lazy"
+            class="social-icon" aria-label="Add me on Snapchat">
+        </a>
+        
+    </section>
+
+    <!-- Scroll Up -->
+    <i class="scroll-up" id="scroll-up"><img src="assets/icons/scroll-up.gif" alt="scroll-up" loading="lazy" class="social-icon up-arrow"></i>
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="copy">Copyright &copy; 2025, Ronal Thapa. All rights reserved.</p>
+        <p class="copy">Built with &#x1F5A4; by <a href="https://github.com/rowNull" target="_blank">rowNull</a></p>
+    </footer>
+
+
+    <script src="assets/js/app.js"></script>
+    
+</body>
+</html>
