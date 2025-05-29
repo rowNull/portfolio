@@ -292,16 +292,6 @@ nav a:hover{
     transition: 0.3s ease;
 }
 
-.form-submitted {
-    animation: popSuccess 0.4s ease-in-out;
-  }
-  
-  @keyframes popSuccess {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.02); }
-    100% { transform: scale(1); }
-  }
-
 .socials{
     display: flex;
     flex-direction: column;
@@ -332,7 +322,6 @@ footer a:hover{
     cursor: pointer;
     right: 2%;
     bottom: 4%;
-    /* box-shadow: 0px 5px 10px var(--secondary-shadow); */
 }
 
 .up-arrow{
@@ -356,15 +345,13 @@ footer a:hover{
         padding: 1.5rem;
         text-align: center;
         opacity: 0;
-        /* transform: translateY(-120%);
-        transition: transform 0.5s ease-in-out; */
         transition: opacity 0.3s ease-in;
-        /* opacity: 1; */
+        pointer-events: none;
     }
 
     nav ul.show{
         opacity: 1;
-        /* transform: translateY(0); */
+        pointer-events: all;
     }
 
     nav ul li a{
@@ -379,16 +366,20 @@ footer a:hover{
         flex-direction: column;
         align-items: center;
         padding: 1rem;
-        width: 80%;
+        width: 95%;
+        margin: auto;
     }
 
     .hero img{
-        width: 80%;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 12px;
     }
 
     .about{
-        width: 100%;
-        margin-top: 1rem;
+        width: 95%;
+        padding: 1rem;
     }
 
     .more-about{
@@ -412,18 +403,20 @@ footer a:hover{
         margin: 1rem auto;
     }
 
-    .project-containers{
+    .project-container{
         margin: 1rem auto;
-        width: 80%;
+        width: 90%;
     }
 
     .project-pic{
-        width: 80%;
+        max-width: 100%;
         height: auto;
+        border-radius: 12px;
     }
     
     .contact-form-container{
-        width: 80%;
+        width: 90%;
+        max-width: 25rem;
     }
 
     .scroll-up{
@@ -436,23 +429,3 @@ footer a:hover{
         right: 5%;
     }
   }
-
-
-  /* @media screen and (max-width: 420px) {
-    .hero img {
-      height: auto;
-      width: 23rem;
-    }
-  
-    .hero {
-      width: 80%;
-    }
-  
-    .project-container {
-      width: 17.875rem;
-    }
-  
-    .contact-form-container {
-      max-width: 17.75rem;
-    }
-  } */
