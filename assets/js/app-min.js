@@ -1,0 +1,2 @@
+$("#scroll-up").click(function(){$(window).scrollTop(0)});$("#menu-toggle").click(function(){$("nav ul").toggleClass("show")})
+$(".nav-link").click(function(){$("nav ul").toggleClass("show")});const form=document.querySelector("form");form.addEventListener("submit",function(e){e.preventDefault();fetch(form.action,{method:"POST",body:new FormData(form),headers:{"Accept":"application/json"}}).then(response=>{if(response.ok){form.reset();alert("Thanks! Your message has been sent.")}else{alert("Oops! Something went wrong.")}})})
